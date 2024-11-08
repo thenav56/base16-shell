@@ -28,7 +28,7 @@ if [ -n "$BASE16_DEFAULT_THEME" -a ! -f ~/.base16_theme ]; then
 fi
 
 if [ -f ~/.base16_theme ]; then
-  . ~/.base16_theme
+  # . ~/.base16_theme
 fi
 
 for script in "$BASE16_SHELL"/scripts/base16*.sh; do
